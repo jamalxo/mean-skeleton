@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <span class="navbar-brand mb-0 h1">ToS Analyze Tool</span>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item" *ngIf="userService.loggedIn">
+        <a class="nav-link btn" (click)="logout()">Logout</a>
+      </li>
+    </ul>
+  </div>
+</nav>
