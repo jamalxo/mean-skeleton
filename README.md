@@ -29,6 +29,5 @@ cd server
 nodemon index.js
 
 # Database
-runs on a cloud, no configuration needed
-
+configured for mongo cloud -> paste url to use
 
